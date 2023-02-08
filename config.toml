@@ -1,0 +1,47 @@
+baseURL = 'http://thesupremetoast.githib.io/'
+languageCode = 'en-us'
+title = 'Patricks Website'
+author = 'Patrick Dewey'
+theme = 'blackburn'
+
+[Params]
+    subtitle = "Personal Portfolio"
+
+# [indexes]
+#  tag = "tags"
+#  topic = "topics"
+
+[menu]
+    [[menu.main]]
+        name = "Home"
+        pre = "<i class='fa fa-home fa-fw'></i>"
+        weight = 1
+        identifier = "home"
+        url = "/"
+
+    [[menu.main]]
+        name = "Resume"
+        pre = "<i class='fa fa-list fa-fw'></i>"
+        weight = 2
+        identifier = "resume"
+        url = "/resume/"
+
+    [[menu.main]]
+        name = "Projects"
+        pre = "<i class='fa fa-code fa-fw'></i>"
+        weight = 3
+        identifier = "projects"
+        url = "/projects/"
+
+    [[menu.main]]
+        name = "Contact"
+        pre = "<i class='fa fa-phone fa-fw'></i>"
+        weight = 4
+        identifier = "contact"
+        url = "/contact/"
+
+
+[social]
+    linkedin = "patricktdewey"
+    github = "thesupremetoast"
+
