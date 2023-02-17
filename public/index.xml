@@ -5,15 +5,43 @@
     <link>http://thesupremetoast.github.io/</link>
     <description>Recent content on Patricks Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://thesupremetoast.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Feb 2023 10:18:58 -0500</lastBuildDate><atom:link href="http://thesupremetoast.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Home</title>
       <link>http://thesupremetoast.github.io/</link>
-      <pubDate>Tue, 07 Feb 2023 10:18:58 -0500</pubDate>
+      <pubDate>Fri, 17 Feb 2023 17:41:44 -0500</pubDate>
       
       <guid>http://thesupremetoast.github.io/</guid>
       <description>Welcome to my personal website! My name is Patrick Dewey and I am student at Virginia Tech.
 I am majoring in Computational Modeling and Data Analytics with minors in Computer Science, Statistics, and Mathematics.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://thesupremetoast.github.io/contact/</link>
+      <pubDate>Tue, 07 Feb 2023 21:55:38 -0500</pubDate>
+      
+      <guid>http://thesupremetoast.github.io/contact/</guid>
+      <description>email:</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>http://thesupremetoast.github.io/resume/</link>
+      <pubDate>Tue, 07 Feb 2023 10:22:21 -0500</pubDate>
+      
+      <guid>http://thesupremetoast.github.io/resume/</guid>
+      <description>my resume at &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://thesupremetoast.github.io/projects/</link>
+      <pubDate>Tue, 07 Feb 2023 10:22:17 -0500</pubDate>
+      
+      <guid>http://thesupremetoast.github.io/projects/</guid>
+      <description>My projects</description>
     </item>
     
   </channel>

@@ -1,11 +1,15 @@
-baseURL = 'http://thesupremetoast.github.io/'
+baseurl = 'http://thesupremetoast.github.io/'
 languageCode = 'en-us'
 title = 'Patricks Website'
 author = 'Patrick Dewey'
 theme = 'blackburn'
 
-[Params]
-    subtitle = "Personal Portfolio"
+[indexes]
+    tag = "tags"
+    topic = "topics"
+
+# [params]
+#     subtitle = "Personal Portfolio"
 
 [menu]
     [[menu.main]]
