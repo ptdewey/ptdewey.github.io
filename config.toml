@@ -7,10 +7,6 @@ theme = 'blackburn'
 [Params]
     subtitle = "Personal Portfolio"
 
-# [indexes]
-#  tag = "tags"
-#  topic = "topics"
-
 [menu]
     [[menu.main]]
         name = "Home"
