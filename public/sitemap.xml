@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://thesupremetoast.githib.io/categories/</loc>
+    <loc>http://thesupremetoast.github.io/</loc>
+    <lastmod>2023-02-07T10:18:58-05:00</lastmod>
   </url><url>
-    <loc>http://thesupremetoast.githib.io/</loc>
+    <loc>http://thesupremetoast.github.io/categories/</loc>
   </url><url>
-    <loc>http://thesupremetoast.githib.io/tags/</loc>
+    <loc>http://thesupremetoast.github.io/</loc>
+  </url><url>
+    <loc>http://thesupremetoast.github.io/tags/</loc>
   </url>
 </urlset>

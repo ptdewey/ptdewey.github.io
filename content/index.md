@@ -1,7 +1,7 @@
 ---
 title: "Home"
 date: 2023-02-07T10:18:58-05:00
-draft: true
+draft: false
 ---
 
 Welcome to my personal website! My name is Patrick Dewey and I am student at Virginia Tech.  
