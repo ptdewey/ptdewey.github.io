@@ -1,6 +1,6 @@
 baseurl = 'http://thesupremetoast.github.io/'
 languageCode = 'en-us'
-title = 'Patricks Website'
+title = "Patrick's Portfolio"
 author = 'Patrick Dewey'
 theme = 'blackburn'
 
@@ -8,13 +8,13 @@ theme = 'blackburn'
     tag = "tags"
     topic = "topics"
 
-# [params]
-#     subtitle = "Personal Portfolio"
+[params]
+    # subtitle = "Personal Portfolio"
 
 [menu]
     [[menu.main]]
         name = "Home"
-        pre = "<i class='fa fa-home fa-fw'></i>"
+        pre = "<i class='fa fa-home fa-fw'></i>"    
         weight = 1
         identifier = "home"
         url = "/"
@@ -33,12 +33,12 @@ theme = 'blackburn'
         identifier = "projects"
         url = "/projects/"
 
-    [[menu.main]]
-        name = "Contact"
-        pre = "<i class='fa fa-phone fa-fw'></i>"
-        weight = 4
-        identifier = "contact"
-        url = "/contact/"
+    # [[menu.main]]
+    #     name = "Contact"
+    #     pre = "<i class='fa fa-phone fa-fw'></i>"
+    #     weight = 4
+    #     identifier = "contact"
+    #     url = "/contact/"
 
 
 [social]
