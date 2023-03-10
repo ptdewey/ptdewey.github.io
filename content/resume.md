@@ -6,7 +6,7 @@ date: 2023-02-07T10:22:21-05:00
 # Skills
 
 * **Programming Languages:** C, R, Python, JavaScript/TypeScript, Java, Bash, Matlab/Octave, SQL
-* **Tools:** Git, Linux, CI/CD, Kubernetes, LaTeX, Moleculer, Twilio, MacOS, Jira, Trello, Agile, Numpy, Matplotlib, ggplot, Pandas, Keras, OpenMP, MPI, Cuda, Hugo, Node.js, React
+* **Tools:** Git, GitHub, Linux, Kubernetes, Numpy, Matplotlib, Pandas, Keras, dplyr, tidyverse, ggplot, openMP, MPI, Cuda, Hugo, Node.js, React, CI/CD, LaTeX, Moleculer, Twilio, MacOS, Jira, Trello, Agile Methodology
 
 
 # Education
@@ -31,7 +31,7 @@ date: 2023-02-07T10:22:21-05:00
     * Worked with the architecture and software development teams to create a Twilio Flex app using React 
     * Developed an internal office messaging system using Twilio serverless functions and the Slack Bolt api
     * Created and automated creation of Twilio diagram sprites using PlantUML and Bash
-    * Supervisor: Mike Weedon
+    * Supervisor: Mark Wensell
     * June 2022 - August 2022
 
 # Hackathons
@@ -55,4 +55,9 @@ date: 2023-02-07T10:22:21-05:00
 * **Virginia Esports Association (VESPA):** Virginia Tech, Blacksburg, VA
     * Club Officer/Game Head
     * 2020 - Present
+* **Junkyard Dogs Robotics Team (FRC 2106):** Goochland High School, Goochland, VA
+    * FIRST Robotics Competition team at Goochland High School
+    * Electrical Systems Lead
+    * Drive Team Technician and Pit Crew
+    * 2018 - 2020
 
