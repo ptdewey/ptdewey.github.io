@@ -5,8 +5,11 @@ date: 2023-02-07T10:22:21-05:00
 
 # Skills
 
-* **Programming Languages:** C, R, Python, JavaScript/TypeScript, Java, Bash, Matlab/Octave, SQL
-* **Tools:** Git, GitHub, Linux, Kubernetes, Numpy, Matplotlib, Pandas, Keras, dplyr, tidyverse, ggplot, openMP, MPI, Cuda, Hugo, Node.js, React, CI/CD, LaTeX, Moleculer, Twilio, MacOS, Jira, Trello, Agile Methodology
+* **Languages:** C, R, Python, JavaScript/TypeScript, Java, Bash, Matlab/Octave, SQL, HTML, CSS
+* **Libraries:** Tidyverse, dplyr, ggplot, Numpy, Pandas, Matplotlib, Keras, openMP, MPI, Cuda
+* **Frameworks & APIs:** Kubernetes, Docker, React.js, Node.js, Moleculer.js, Twilio API, Slack API, Spotify API, Discord API  
+* **Dev Tools:** Git, GitHub, GitLab, Linux, macOS, Vim, Visual Studio Code, Jupyter, RStudio
+* **Other:** LaTeX, Jira, Trello, Agile Methodology, CI/CD
 
 
 # Education
