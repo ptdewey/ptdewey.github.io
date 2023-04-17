@@ -5,8 +5,10 @@ date: 2023-02-07T10:22:17-05:00
 
 ## [FRC Scouting Database:](https://github.com/TheSupremeToast/frc-scouting-database-2023)
 * A scouting and event predictions database for FIRST Robotics Competition events, using The Blue Alliance api
-* This system reads event match data from The Blue Alliance, and uses it to calculate a variety of useful statistics for use in scouting
-* It also has the ability to predict match outcomes with reasonable accuracy once enough data is collected
+* This system reads event match data from The Blue Alliance, and uses it to calculate a variety of useful statistics for use in event scouting
+* Uses statistical modeling methods to estimate team contributions during matches in order to quantitively rank teams and make predictions
+* Includes a event merging structure that allows data aggregation from many events into a centralized spreadsheet/database
+* It is able to predict match outcomes with around 80% accuracy using current and/or prior data  
 * Written in R, using Tidyverse, dplyr, and ggplot
 
 ## [SpotiPy Wrapped:](https://github.com/TheSupremeToast/SpotiPy-Wrapped)

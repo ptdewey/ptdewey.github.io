@@ -3,15 +3,6 @@ title: "Resume"
 date: 2023-02-07T10:22:21-05:00
 ---
 
-# Skills
-
-* **Languages:** C, R, Python, JavaScript/TypeScript, Java, Bash, Matlab/Octave, SQL, HTML, CSS
-* **Libraries:** Tidyverse, dplyr, ggplot, Numpy, Pandas, Matplotlib, Keras, openMP, MPI, Cuda
-* **Frameworks & APIs:** Kubernetes, Docker, React.js, Node.js, Moleculer.js, Twilio API, Slack API, Spotify API, Discord API  
-* **Dev Tools:** Git, GitHub, GitLab, Linux, macOS, Vim, Visual Studio Code, Jupyter, RStudio
-* **Other:** LaTeX, Jira, Trello, Agile Methodology, CI/CD
-
-
 # Education
 
 * **Virginia Tech:** Blacksburg, VA
@@ -23,19 +14,41 @@ date: 2023-02-07T10:22:21-05:00
     * 2018 - 2020
     * Dean's List
 
+
+# Skills
+
+* **Languages:** C, R, Python, JavaScript/TypeScript, Java, Bash, Matlab/Octave, SQL, HTML, CSS
+* **Libraries:** Tidyverse, dplyr, ggplot, Numpy, Pandas, Matplotlib, Keras, openMP, MPI, Cuda
+* **Frameworks & APIs:** Kubernetes, Docker, React.js, Node.js, Moleculer.js, Twilio API, Slack API, Spotify API, Discord API, The Blue Alliance API  
+* **Dev Tools:** Git, GitHub, GitLab, Linux, macOS, Vim, Visual Studio Code, Jupyter, RStudio
+* **Other:** LaTeX, Jira, Trello, Agile Methodology, CI/CD
+
+
 # Job Experience
 
 * **Undergraduate Teaching Assistant:** Virginia Tech, Blacksburg, VA
     * CMDA-3634: High Powered Computing
-    * Supervisor: Professor Jason Wilson
     * January 2023 - Present
 * **Software Engineering Intern:** Terazo, Richmond, VA
     * Worked on an agile team on a two-factor verification system using Twilio flex/verify and Moleculer
     * Worked with the architecture and software development teams to create a Twilio Flex app using React 
     * Developed an internal office messaging system using Twilio serverless functions and the Slack Bolt api
     * Created and automated creation of Twilio diagram sprites using PlantUML and Bash
-    * Supervisor: Mark Wensell
     * June 2022 - August 2022
+
+
+## Relevant Coursework
+
+* Data visualization and machine learning I & II
+* Applied Bayesian statistics
+* Experimental designs
+* Math modeling methods and tools I & II
+* High powered computing and parallelization
+* Software design and data structures I & II
+* Computer organization I
+* Kubernetes programming
+* SQL programming
+
 
 # Hackathons
 * **VTHacks X:**
