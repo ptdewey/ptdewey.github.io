@@ -9,7 +9,8 @@ date: 2023-02-07T10:22:21-05:00
     * B.S. Computational Modeling and Data Analytics
     * Minors: Computer Science, Mathematics, Statistics 
     * 2020 - Present (Class of 2024)
-* **Reynolds Community College:** Goochland, VA
+    * Masters of Engineering in Computer Science (Class of 2025)
+* **Reynolds Community College:** Richmond, VA
     * A.S. Social Sciences
     * 2018 - 2020
     * Dean's List
@@ -17,8 +18,8 @@ date: 2023-02-07T10:22:21-05:00
 
 # Skills
 
-* **Languages:** C, R, Python, JavaScript/TypeScript, Java, Bash, Matlab/Octave, SQL, HTML, CSS
-* **Libraries:** Tidyverse, dplyr, ggplot, Numpy, Pandas, Matplotlib, Keras, openMP, MPI, Cuda
+* **Languages:** C, C++, Cuda, R, Python, JavaScript/TypeScript, Java, Bash, Matlab/Octave, SQL
+* **Libraries:** Numpy, Pandas, Matplotlib, Keras, Tidyverse, dplyr, ggplot, Rcpp, OpenMP, MPI
 * **Frameworks & APIs:** Kubernetes, Docker, React.js, Node.js, Moleculer.js, Twilio API, Slack API, Spotify API, Discord API, The Blue Alliance API  
 * **Dev Tools:** Git, GitHub, GitLab, Linux, macOS, Vim, Visual Studio Code, Jupyter, RStudio
 * **Other:** LaTeX, Jira, Trello, Agile Methodology, CI/CD
@@ -29,22 +30,31 @@ date: 2023-02-07T10:22:21-05:00
 * **Undergraduate Teaching Assistant:** Virginia Tech, Blacksburg, VA
     * CMDA-3634: High Powered Computing
     * January 2023 - Present
+    * Utilized: C, Python, OpenMP, MPI, Cuda
+* **Software Engineering Intern:** Commonwealth Center for Advanced Manufacturing, Richmond, VA
+    * Built a computer vision driven live environmental monitoring system for use in collaborative robotics with location tracking and pattern recognition capabilities as well as a real time visualization dashboard.
+    * May 2023 - August 2023
+    * Utilized: C++, Python, R, Docker, Rcpp, ggplot, Tidyverse, Shiny
 * **Software Engineering Intern:** Terazo, Richmond, VA
     * Worked on an agile team on a two-factor verification system using Twilio flex/verify and Moleculer
     * Worked with the architecture and software development teams to create a Twilio Flex app using React 
     * Developed an internal office messaging system using Twilio serverless functions and the Slack Bolt api
     * Created and automated creation of Twilio diagram sprites using PlantUML and Bash
     * June 2022 - August 2022
+    * Utilized: JavaScript, TypeScript, Node, React, Moleculer, Twilio
 
 
 ## Relevant Coursework
 
 * Data visualization and machine learning I & II
 * Applied Bayesian statistics
+* Applied time series analysis
 * Experimental designs
 * Math modeling methods and tools I & II
-* High powered computing and parallelization
+* High performance computing
+* Scalable computing
 * Software design and data structures I & II
+* Data structures and algorithms
 * Computer organization I
 * Kubernetes programming
 * SQL programming
