@@ -8,7 +8,7 @@ date: 2024-02-11T10:22:17-05:00
 * Includes various activation functions (ReLU, Tanh, Sigmoid, Softmax), and a few cost functions (Mean Square Error, Categorical Cross Entropy, Binary Cross Entropy).
 * Capable of both binary and multi-class classification problems, as well as regression tasks.
 
-## [FRC Scouting Database:](https://github.com/ptdewey/frc-scouting-database-2023)
+## [FRC Scouting Database:](https://github.com/ptdewey/frc-scouting-database)
 * A scouting and event predictions database for FIRST Robotics Competition events, using The Blue Alliance API.
 * This system reads event match data from The Blue Alliance, and uses it to calculate a variety of useful statistics for use in event scouting.
 * Uses statistical modeling methods to estimate team contributions during matches in order to quantitatively rank teams and make predictions.
