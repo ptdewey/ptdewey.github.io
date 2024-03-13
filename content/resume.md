@@ -25,7 +25,7 @@ date: 2023-02-07T10:22:21-05:00
 # Job Experience
 
 * **Undergraduate Teaching Assistant:** Virginia Tech, Blacksburg, VA
-    * CMDA-3634: High Powered Computing
+    * CMDA-3634: Parallel Computing
     * January 2023 - December 2024
     * Utilized: C, Python, OpenMP, MPI, Cuda
 * **Software Engineering Intern:** Commonwealth Center for Advanced Manufacturing, Richmond, VA
