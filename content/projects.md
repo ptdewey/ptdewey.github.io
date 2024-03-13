@@ -1,7 +1,14 @@
 ---
 title: "My Projects"
-date: 2024-02-11T10:22:17-05:00
+date: 2024-03-13T10:22:17-05:00
 ---
+
+## [FRC Scouting Database V2:](https://github.com/ptdewey/frc-scouting-database-v2)
+* A new and improved version of my original [scouting database](#frc-scouting-database), rewritten in Golang to improve performance, ease of automation, reproducibility, expandability, and robustness.
+* Like the original system, it reads event and match data from The Blue Alliance API, and uses that data to calculate a variety of statistics chosen to extract hidden insights during the scouting process.
+* I also added a discord bot that automatically uploads event insights to the team discord channel, allowing scouts to have quick access to new data during competitions.
+* Includes Docker image specifications for quick deployment, and tests to ensure everything is working as intended.
+* Written in Go.
 
 ## [CUDA Neural Network](https://github.com/ptdewey/cuda-nn)
 * A modular feed-forward neural network implementation written in CUDA C++ without any libraries.
@@ -14,21 +21,25 @@ date: 2024-02-11T10:22:17-05:00
 * Uses statistical modeling methods to estimate team contributions during matches in order to quantitatively rank teams and make predictions.
 * Includes an event merging structure that allows data aggregation from many events into a centralized spreadsheet/database.
 * It is able to predict match outcomes with around 80% accuracy using current and/or prior data.  
-* Written in R, using Tidyverse, dplyr, and ggplot
+* Written in R, using Tidyverse, dplyr, and ggplot.
 
 ## [knitr-nvim](https://github.com/ptdewey/knitr-nvim)
 * A Neovim plugin enabling quick and easy knitting of R and R markdown files with 1 key-press.
-* Written in Lua
+* Written in Lua.
 
 ## [Linux Dotfiles:](https://github.com/ptdewey/dotfiles)
 * A collection of configuration files and scripts I use every day on my Linux desktop.
 * Contains my Neovim configuration along featuring custom Lua functions I wrote that allow for faster directory traversal and quicker fuzzy finding.
-* Includes quick set up script that allows me to get working on any system in minutes.
+* Includes a quick setup script that allows me to get working on any system in minutes.
+* Also includes nix configuration files to allow for better reproducibility across any type of unix system.
 
 ## Riverine Flood Prediction
 * Built a data processing system for cleaning and merging geographical and time series weather data.
 * Developed a flood prediction model for the Roanoke River watershed that achieves 95+% accuracy.
 * Written in Python with Numpy, Pandas, GeoPandas, Rasterio, and PyTorch
+
+## [Wes Anderson Palettes](https://github.com/karthik/wesanderson)
+* Contributed new color palettes to the popular 'wesanderson' R graphics library.
 
 ## [SpotiPy Wrapped:](https://github.com/ptdewey/SpotiPy-Wrapped)
 * Statistical analysis and visualization of Spotify personal data obtained via request and from the API
@@ -40,7 +51,4 @@ date: 2024-02-11T10:22:17-05:00
 ## [EasyStats:](https://github.com/ptdewey/easystats)
 * Simple statistical analysis library for Python written in C.
 * Created during the VT Hacks X hackathon
-
-## [Wes Anderson Palettes](https://github.com/karthik/wesanderson)
-* Contributed new color palettes to the popular 'wesanderson' R graphics library.
 

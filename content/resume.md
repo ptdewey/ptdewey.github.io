@@ -20,13 +20,10 @@ date: 2023-02-07T10:22:21-05:00
 
 * **Languages:** C, C++, CUDA, R, Python, Go, JavaScript/TypeScript, Java, Bash, Matlab/Octave, SQL  
 * **Libraries:** OpenMP, MPI, Tidyverse, dplyr, ggplot, Rcpp, Numpy, Pandas, Matplotlib, Flask, Scikit-Learn, Keras  
-* **Dev Tools:** Git, GitHub, GitLab, Docker, Kubernetes, Linux, macOS, Neovim, VSCode
+* **Dev Tools:** Git, GitHub, GitLab, Docker, Kubernetes, Linux, macOS, Neovim, VSCode, Quarto
 
 # Job Experience
 
-* **Graduate Researcher:** Synergy Lab at Virginia Tech, Blacksburg, VA
-    * Studying the application of high performance and high productivity computing tools to heterogeneous systems.
-    * Utilizing: C/C++, CUDA, MPI, OpenMP, OpenCL, Chapel
 * **Undergraduate Teaching Assistant:** Virginia Tech, Blacksburg, VA
     * CMDA-3634: High Powered Computing
     * January 2023 - December 2024
