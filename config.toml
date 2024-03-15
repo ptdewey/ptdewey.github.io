@@ -33,14 +33,15 @@ paginate = 20
     url = "/about/"
 
 [[menu.main]]
-    name = "Resume"
-    weight = 2
-    url = "/resume/"
-
-[[menu.main]]
     name = "Projects"
     weight = 3
     url = "/projects/"
+
+[[menu.main]]
+    name = "Blog"
+    weight = 2
+    url = "/posts/"
+
 
 # social media stuff
 [[params.social]]
