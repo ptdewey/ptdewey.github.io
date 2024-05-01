@@ -25,7 +25,7 @@ date: 2024-03-13T10:22:17-05:00
 * Versatile Neovim plugin that offers an enhanced clipboard history interface with a quick-access menu, featuring session persistence through SQLite3 or JSON file storage, widely adopted for its configurability
 * Written in Lua
 
-## [Pendulum-nvim](https://github.om/ptdewey/pendulum-nvim)
+## [Pendulum-nvim](https://github.com/ptdewey/pendulum-nvim)
 * Neovim plugin that monitors coding duration and compiles metrics such as git project name, file type, and additional parameters, providing insightful data for productivity analysis.
 * Written in Lua
 
