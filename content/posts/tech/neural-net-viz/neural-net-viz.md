@@ -46,7 +46,7 @@ The overarching website was created using R-markdown, knit (compiled) to a coupl
 
 ## Results
 
-The website for this project can be found at [https://ptdewey.com/neural-net-viz](https://ptdewey.com/neural-net-viz) [^1].
+The website for this project can be found at [https://ptdewey.com/neural-net-viz](https://ptdewey.com/neural-net-viz) [^1]. The source code for our code can also be found below [^2].
 
 ### Visualizing Decision Boundaries
 
@@ -119,6 +119,6 @@ Future research could explore more advanced dimensionality reduction techniques 
 
 ## Links
 
-- [^1]: [Project Site](https://pdewey.com/neural-net-viz/)
-- [^2]: [Source Code](https://github.com/ptdewey/neural-net-viz/)
+[^1]: [Project Site](https://pdewey.com/neural-net-viz/)
+[^2]: [Source Code](https://github.com/ptdewey/neural-net-viz/)
 
