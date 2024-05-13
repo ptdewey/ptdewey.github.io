@@ -52,17 +52,17 @@ The website for this project can be found at [https://ptdewey.com/neural-net-viz
 
 The decision boundary contour plot animations demonstrate how a neural network's decision boundary evolves and bisects the dataset it is trained on. Points represent the dataset, and the contoured background shows the decision boundary, with colors indicating the distance from the boundary. For example, using the Moons dataset, a highly nonlinear boundary is needed for correct classification.
 
-![](assets/nnviz-db-e1.png)
+![](nnviz-db-e1.png)
 * Decision Boundary: Epoch 1
 
 The initial state of the decision boundary is completely random at the start of training.
 
-![](assets/nnviz-db-e20.png)
+![](nnviz-db-e20.png)
 * Decision Boundary: Epoch 20
 
 After 20 epochs, the boundary has shaped to separate many of the points from each cluster, but it still misclassifies many entries at this point.
 
-![](assets/nnviz-db-e100.png)
+![](nnviz-db-e100.png)
 * Decision Boundary: Epoch 100
 
 After 100 epochs, we can see that the decision boundary perfectly separates the two classes.
@@ -73,10 +73,10 @@ After 100 epochs, we can see that the decision boundary perfectly separates the 
 The exploratory analysis page includes plots using Principal Component Analysis (PCA) and *t*-Distributed Stochastic Neighbor Embedding (*t*-SNE) to illustrate class distributions in the MNIST dataset. PCA plots show blurred boundaries between classes, while *t*-SNE plots reveal distinct clusters and greater sensitivity to in-group differences. For both PCA and *t*-SNE we included a biplot, de
 nsity biplot, and 3D plot of the class embeddings.
 
-![](assets/nnviz-pca-biplots.png)
+![](nnviz-pca-biplots.png)
 * PCA Biplot and Density Biplot
 
-![](assets/nnviz-tsne-biplots.png)
+![](nnviz-tsne-biplots.png)
 * *t*-SNE Biplot and Density Biplot
 
 Between the two dimensionality reduction algorithms, *t*-SNE was better in this case at visually separating the classes from the dataset. We found the density biplot to be the most effective at visually communicating the distribution of the different data classes.
@@ -86,15 +86,15 @@ Between the two dimensionality reduction algorithms, *t*-SNE was better in this 
 
 Weight visualization animations show how neuron weights evolve during training for high-dimensional datasets like MNIST. Initially random, many of these weights gradually form (somewhat) recognizable patterns.
 
-![](assets/nnviz-wv-e1.png)
+![](nnviz-wv-e1.png)
 * Neuron Weights: Epoch 1
 
-![](assets/nnviz-wv-e20.png)
+![](nnviz-wv-e20.png)
 * Neuron Weights: Epoch 20
 
 After 20 epochs, we can see a number of patterns that resemble entire numbers or parts of them.
 
-![](assets/nnviz-wv-e100.png)
+![](nnviz-wv-e100.png)
 * Neuron Weights: Epoch 100
 
 After 100 epochs, most weights became very muddled, still holding the previous patterns but in more muddy state. This may seem counterintuitive as the network appears (from the eyes of a human) to have lost the original patterns, but the network was performing noticeably better in classification tasks at the 100 epoch mark.
