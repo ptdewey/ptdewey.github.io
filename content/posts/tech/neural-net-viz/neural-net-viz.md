@@ -46,7 +46,7 @@ The overarching website was created using R-markdown, knit (compiled) to a coupl
 
 ## Results
 
-The website for this project can be found at [https://ptdewey.com/neural-net-viz](https://ptdewey.com/neural-net-viz) [^1]. The source code for our code can also be found below [^2].
+The website for this project can be found at [https://pdewey.com/neural-net-viz](https://pdewey.com/neural-net-viz) [^1]. The source code for our code can also be found below [^2].
 
 ### Visualizing Decision Boundaries
 
@@ -117,7 +117,6 @@ The techniques we used, like PCA and *t*-SNE for dimensionality reduction, and a
 Future research could explore more advanced dimensionality reduction techniques or develop new methods for visualizing neural networks. Our project is a step towards making AI models more transparent and trustworthy, contributing to the broader goal of Explainable AI (XAI). By continuing to innovate and experiment, we can hope to further demystify these powerful yet complex models.
 
 
-## Links
 
 [^1]: [Project Site](https://pdewey.com/neural-net-viz/)
 [^2]: [Source Code](https://github.com/ptdewey/neural-net-viz/)
