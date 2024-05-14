@@ -1,7 +1,7 @@
 ---
 title: "Visually Representing *What* Neural Networks Learn"
 authors: ["Patrick Dewey"]
-date: 2024-05-01
+date: 2024-05-13
 categories: ["Tech"]
 tags: ["machine-learning", "ai", "python", "r", "visualization"]
 draft: false
