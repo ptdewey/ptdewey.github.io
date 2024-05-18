@@ -18,6 +18,7 @@ paginate = 20
     enableTwemoji = true
     colorScheme = "dark" # could be auto
     hidecolorschemetoggle = false
+    favicon_32 = "images/favicon-32x32.png"
 
 # for blog posts
 [taxonomies]
