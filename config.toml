@@ -6,54 +6,59 @@ theme = 'hugo-coder'
 paginate = 20
 
 [markup.highlight]
-    style = "github-dark"
+style = "github-dark"
 
 [params]
-    author = 'Patrick Dewey'
-    info = "Data Science, High Performance Computing, and Software Engineering"
-    description = "Patrick Dewey's Personal Website"
-    keywords = "ml,hpc,swe"
-    avatarurl = "images/avatar.png"
-    since = 2022
-    enableTwemoji = true
-    colorScheme = "dark" # could be auto
-    hidecolorschemetoggle = false
-    favicon_32 = "images/favicon-32x32.png"
+author = 'Patrick Dewey'
+info = "Data Science, High Performance Computing, and Software Engineering"
+description = "Patrick Dewey's Personal Website"
+keywords = "ml,hpc,swe"
+avatarurl = "images/avatar.png"
+since = 2022
+enableTwemoji = true
+colorScheme = "dark" # could be auto
+hidecolorschemetoggle = false
+favicon_32 = "images/favicon-32x32.png"
 
 # for blog posts
 [taxonomies]
-    category = "categories"
-    series = "series"
-    tag = "tags"
-    author = "authors"
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
 
 # add pages to header bar
 [[menu.main]]
-    name = "About Me"
-    weight = 1
-    url = "/about/"
+name = "About Me"
+weight = 1
+url = "/about/"
 
 [[menu.main]]
-    name = "Projects"
-    weight = 3
-    url = "/projects/"
+name = "Projects"
+weight = 3
+url = "/projects/"
 
 [[menu.main]]
-    name = "Blog"
-    weight = 2
-    url = "/posts/"
+name = "Blog"
+weight = 2
+url = "/posts/"
 
 
 # social media stuff
 [[params.social]]
-    name = "github"
-    icon = "fa-brands fa-github fa-2x"
-    weight = 1
-    url = "https://github.com/ptdewey"
+name = "github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/ptdewey"
 
 [[params.social]]
-    name = "linkedin"
-    icon = "fa-brands fa-linkedin fa-2x"
-    weight = 2
-    url = "https://www.linkedin.com/in/patricktdewey/"
+name = "linkedin"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 2
+url = "https://www.linkedin.com/in/patricktdewey/"
+
+[[params.utterances]]
+repo = "ptdewey/ptdewey.github.io" # https://utteranc.es/#heading-repository
+issueTerm = "pathname" # https://utteranc.es/#heading-mapping
+theme = "preferred-color-scheme" # https://utteranc.es/#heading-theme
 
