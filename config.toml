@@ -58,8 +58,9 @@ weight = 2
 url = "https://www.linkedin.com/in/patricktdewey/"
 
 [[params.utterances]]
-repo = "" # https://utteranc.es/#heading-repository
+enable = true
+repo = "ptdewey/ptdewey.github.io" # https://utteranc.es/#heading-repository
 issueTerm = "pathname" # https://utteranc.es/#heading-mapping
-label = ""
+label = "Comment" # https://utteranc.es/#heading-label
 theme = "preferred-color-scheme" # https://utteranc.es/#heading-theme
 
