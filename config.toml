@@ -57,10 +57,10 @@ icon = "fa-brands fa-linkedin fa-2x"
 weight = 2
 url = "https://www.linkedin.com/in/patricktdewey/"
 
-[[params.utterances]]
-enable = true
-repo = "https://github.com/ptdewey/ptdewey.github.io/" # https://utteranc.es/#heading-repository
+[params.utterances]
+repo = "ptdewey/ptdewey.github.io" # https://utteranc.es/#heading-repository
 issueTerm = "pathname" # https://utteranc.es/#heading-mapping
 label = "Comment" # https://utteranc.es/#heading-label
-theme = "preferred-color-scheme" # https://utteranc.es/#heading-theme
+theme = "auto" # https://utteranc.es/#heading-theme
+# theme = "preferred-color-scheme" # https://utteranc.es/#heading-theme
 
