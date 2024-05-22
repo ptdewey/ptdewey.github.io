@@ -62,5 +62,4 @@ repo = "ptdewey/ptdewey.github.io" # https://utteranc.es/#heading-repository
 issueTerm = "pathname" # https://utteranc.es/#heading-mapping
 label = "Comment" # https://utteranc.es/#heading-label
 theme = "auto" # https://utteranc.es/#heading-theme
-# theme = "preferred-color-scheme" # https://utteranc.es/#heading-theme
 
