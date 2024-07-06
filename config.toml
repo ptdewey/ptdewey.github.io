@@ -10,15 +10,14 @@ style = "github-dark"
 
 [params]
 author = 'Patrick Dewey'
-info = "Data Science, High Performance Computing, and Software Engineering"
+info = "Data Scientist / Software Engineer / Neovim Plugin Author"
 description = "Patrick Dewey's Personal Website"
-keywords = "ml,hpc,swe"
+keywords = "ml,ai,swe,vim,nvim"
 avatarurl = "images/avatar.png"
 since = 2022
 enableTwemoji = true
 colorScheme = "dark" # could be auto
 hidecolorschemetoggle = false
-favicon_32 = "images/favicon-32x32.png"
 
 # for blog posts
 [taxonomies]
