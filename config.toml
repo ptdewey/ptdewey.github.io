@@ -10,7 +10,7 @@ style = "github-dark"
 
 [params]
 author = 'Patrick Dewey'
-info = "Data Scientist / Software Engineer / Neovim Plugin Author"
+info = "Data Scientist / Software Engineer"
 description = "Patrick Dewey's Personal Website"
 keywords = "ml,ai,swe,vim,nvim"
 avatarurl = "images/avatar.png"
