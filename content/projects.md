@@ -69,3 +69,26 @@ date: 2024-07-21
 * Also includes nix configuration files to allow for better reproducibility across any type of unix system.
 * Summer 2016 - Present
 
+---
+
+# Other Contributions
+
+## [XAMPPRocky/tokei](https://github.com/XAMPPRocky/tokei)
+* Tokei is a cli application that counts lines of code in a project.
+* Added support for the PlantUML diagramming language.
+
+## [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+* lualine.nvim is a Neovim plugin that provides a customizable and extensible status bar.
+* Added a new option for showing filenames in the bar, dynamically adding parent directory in cases where there are multiple open buffers with the same filename (common in Rust projects).
+
+## [letieu/harpoon-lualine](https://github.com/letieu/harpoon-lualine)
+* Harpoon-lualine is an extension for the lualine that integrates with Harpoon to show harpooned files.
+* Fixed a bug that resulted in unintended behavior in cases with an empty Harpoon list.
+
+## [rockerBOO/awesome-neovim](https://github.com/rockerBOO/awesome-neovim)
+* Awesome-Neovim is a list of great Neovim following the "Awesome List" format.
+* Added new plugins to and updated plugins in the list.
+
+## [karthik/wesanderson](https://github.com/karthik/wesanderson)
+* wesanderson is a popular color palette library for the R programming language.
+* Added Asteroid City themed color palettes.
