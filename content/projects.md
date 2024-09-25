@@ -5,11 +5,19 @@ date: 2024-07-21
 
 ## Active Projects
 
+### [Matcha](https://github.com/ptdewey/matcha)
+![Matcha create mode](https://vhs.charm.sh/vhs-4tSj59aPfirr75FPTkCEDk.gif)
+
+![Matcha search mode](https://vhs.charm.sh/vhs-4kSCJXt5B2VcZC14XOeFdu.gif)
+* A beautiful TUI note taking helper that allows users to quickly create notes and search existing notes.
+* Written in Go using Bubble Tea.
+* Summer 2024 - Present
+
 ### [Bluprinter](https://github.com/ptdewey/blueprinter)
 ![Blueprinter screenshot](https://github.com/ptdewey/blueprinter/raw/main/assets/screenshot-1.png)
 * An extensible template management tool with a beautiful terminal interface.
 * I built Blueprinter to be a much more powerful and extensible replacement for a bash script I wrote to generate copies of commonly used files (template LaTeX documents, Nix dev shells, etc.).
-* Built with Go and Bubbletea.
+* Built in Go using Bubble Tea.
 * Summer 2024 - Present
 
 ### [Pendulum-nvim](https://github.com/ptdewey/pendulum-nvim)

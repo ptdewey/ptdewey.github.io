@@ -27,7 +27,7 @@ I am a software developer and data scientist, and I am an avid Neovim user (I've
 * **Languages:** Go, Rust, Python, C, Lua, JavaScript/TypeScript, Bash, R, Java, HTML, CSS
 * **Libraries:** OpenMP, MPI, CUDA, Tidyverse, ggplot, Numpy, Pandas, Matplotlib, Flask, Scikit-Learn, Keras, TensorFlow, React, Electron
 * **Databases:** MySQL, InfluxDB, MongoDB, SQLite
-* **Dev Tools:** Git, GitHub, GitLab, Docker, Kubernetes, Linux, macOS, Neovim, VSCode, PlantUML
+* **Dev Tools:** Git, GitHub, GitLab, Docker, Kubernetes, Linux, macOS, Neovim, VSCode, Nix, PlantUML
 
 # Job Experience
 
