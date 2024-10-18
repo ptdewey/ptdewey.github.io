@@ -69,7 +69,7 @@ date: 2024-07-21
 ### [internot.blog](https://internot.blog)
 * Internot.blog is a surrealistic yet realistic view into a potential future in which AI rules the internet.
 * It is a blog where all of the content (posts and ads) is generated in entirity and automatically by AI.
-* Build with Go, Hugo, Llama3.1, and Stable Diffusion ([source code](https://github.com/internot-blog))
+* Built with Go, Hugo, Llama3.1, and Stable Diffusion ([source code](https://github.com/internot-blog))
 * Written in one weekend as a hackathon project (VTHacks 12).
 * Summer 2024
 
