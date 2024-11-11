@@ -8,6 +8,7 @@
   <ul>
     {#each data.posts as post}
       <li>
+        {post.metadata.date} -
         <a href="{base}/blog/{post.metadata.slug}">
           {post.metadata.title}
         </a>
@@ -15,3 +16,9 @@
     {/each}
   </ul>
 </main>
+
+<style>
+  li {
+    list-style: none;
+  }
+</style>

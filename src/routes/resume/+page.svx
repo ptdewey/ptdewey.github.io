@@ -1,6 +1,4 @@
----
-title: "Resume"
----
+# Resume
 
 ## Education
 
@@ -37,4 +35,4 @@ title: "Resume"
 
 ## Projects
 
-See [my projects](https://pdewey.com/projects)
+See [my projects](/projects)

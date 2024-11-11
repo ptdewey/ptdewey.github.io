@@ -19,11 +19,11 @@
     --code-text-color: var(--tan);
 }
 
-/* Global Styles */
 body {
     background-color: var(--background-color);
     color: var(--text-color);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.05em;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -37,45 +37,6 @@ a {
 a:hover {
     color: var(--link-hover-color);
     text-decoration: underline;
-}
-
-/* Header */
-header {
-    margin: 1em
-}
-
-header a:hover {
-    color: var(--link-hover-color);
-    background-color: var(--text-color);
-    text-decoration: none;
-}
-
-nav {
-    background-color: var(--header-background);
-    padding: 1em 2em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.logo {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: var(--tan);
-    text-decoration: none;
-}
-
-.nav-links {
-    display: flex;
-    font-weight: bold;
-    gap: 2em;
-}
-
-.nav-links a {
-    color: var(--text-color);
-    text-decoration: none;
 }
 
 /* Main Content */
@@ -198,15 +159,6 @@ button:hover {
     background-color: var(--dark-green);
 }
 
-/* Footer */
-footer {
-    font-size: 0.8em;
-    color: var(--text-color);
-    text-align: center;
-    padding: 0em;
-    margin-top: 1em;
-}
-
 h1 {
     color: var(--orange);
 }
@@ -220,7 +172,6 @@ h2 {
 }
 
 
-/* General Header Styles */
 h1,
 h2,
 h3,
@@ -228,8 +179,6 @@ h4,
 h5,
 h6 {
     position: relative;
-    cursor: pointer;
-    /* Optional: change cursor to indicate interactivity */
 }
 
 /* Add a `#` on hover */
@@ -246,7 +195,6 @@ h6:hover::before {
     opacity: 0.7;
 }
 
-/* Adjust for spacing */
 h1:hover::before {
     left: -1.2em;
 }
@@ -257,4 +205,11 @@ h2:hover::before {
 
 h3:hover::before {
     left: -1.2em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
 }

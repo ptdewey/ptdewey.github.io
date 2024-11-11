@@ -85,9 +85,8 @@ func processMarkdownFile(path string) (Page, error) {
 	}, nil
 }
 
-func processDirectory(dir string) ([]Page, []Page, error) {
+func processDirectory(dir string) ([]Page, error) {
 	var posts []Page
-	var pages []Page
 
 	err := filepath.WalkDir(dir, func(path string, d os.DirEntry, err error) error {
 		if err != nil {
@@ -104,16 +103,12 @@ func processDirectory(dir string) ([]Page, []Page, error) {
 				return err
 			}
 
-			if strings.Contains(path, "/posts/") {
-				posts = append(posts, page)
-			} else {
-				pages = append(pages, page)
-			}
+			posts = append(posts, page)
 		}
 		return nil
 	})
 
-	return posts, pages, err
+	return posts, err
 }
 
 func writeJSONFile(data interface{}, outputPath string) error {
@@ -125,21 +120,16 @@ func writeJSONFile(data interface{}, outputPath string) error {
 }
 
 func main() {
-	posts, pages, err := processDirectory("content")
+	posts, err := processDirectory("content")
 	if err != nil {
 		fmt.Printf("Error processing directory: %v\n", err)
 		os.Exit(1)
 	}
 
-	if err := writeJSONFile(posts, "static/posts.json"); err != nil {
+	if err := writeJSONFile(posts, "static/data/posts.json"); err != nil {
 		fmt.Printf("Error writing posts.json: %v\n", err)
 		os.Exit(1)
 	}
 
-	if err := writeJSONFile(pages, "static/pages.json"); err != nil {
-		fmt.Printf("Error writing pages.json: %v\n", err)
-		os.Exit(1)
-	}
-
-	fmt.Println("Successfully generated posts.json and pages.json")
+	fmt.Println("Successfully generated posts.json")
 }
