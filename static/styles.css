@@ -89,7 +89,6 @@ code {
     border-radius: 3px;
 }
 
-/* Footnotes */
 .footnotes {
     font-size: 0.9em;
     border-top: 1px solid var(--green);
@@ -103,16 +102,14 @@ code {
 
 .footnotes li {
     margin-bottom: 0.5em;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
 }
 
 .footnote-backref {
     text-decoration: none;
     margin-left: 0.5em;
     color: var(--link-color);
-}
-
-.footnote-backref:hover {
-    color: var(--link-hover-color);
 }
 
 /* Lists */
@@ -212,4 +209,19 @@ img {
     height: auto;
     display: block;
     margin: 1em auto;
+}
+
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+    .footnotes {
+        font-size: 0.8em;
+        margin-top: 1.5em;
+        padding-top: 0.8em;
+    }
+
+    .footnotes li {
+        padding-right: 1em;
+        line-height: 1.4;
+    }
 }
