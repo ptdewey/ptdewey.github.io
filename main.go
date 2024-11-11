@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"encoding/xml"
 	"fmt"
+	"math"
 	"os"
 	"path/filepath"
 	"strings"
@@ -67,6 +68,15 @@ func parseFrontMatter(content []byte) (map[string]interface{}, []byte, error) {
 	return metadata, []byte(parts[2]), nil
 }
 
+func getReadingTime(text string) int {
+	words := strings.Fields(text)
+	wordCount := len(words)
+
+	// reading/speaking rate
+	wordsPerMinute := 200.0
+	return int(math.Round(float64(wordCount) / wordsPerMinute))
+}
+
 func processMarkdownFile(path string) (Page, error) {
 	content, err := os.ReadFile(path)
 	if err != nil {
@@ -102,6 +112,8 @@ func processMarkdownFile(path string) (Page, error) {
 	if err := md.Convert(markdownContent, &htmlContent); err != nil {
 		return Page{}, err
 	}
+
+	metadata["read_time"] = getReadingTime(string(markdownContent))
 
 	return Page{
 		Metadata: metadata,

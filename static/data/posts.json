@@ -9,6 +9,7 @@
         "Programming"
       ],
       "date": "2024-05-13",
+      "read_time": 7,
       "slug": "neural-net-viz",
       "tags": [
         "machine-learning",
@@ -30,6 +31,7 @@
         "Statistics"
       ],
       "date": "2024-05-21",
+      "read_time": 9,
       "slug": "signal-and-the-noise",
       "tags": [
         "statistics",
@@ -51,6 +53,7 @@
         "Software Development"
       ],
       "date": "2024-11-10",
+      "read_time": 3,
       "slug": "i-rewrote-my-site-in-svelte",
       "tags": [
         "go",
