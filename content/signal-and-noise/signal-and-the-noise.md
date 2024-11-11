@@ -10,7 +10,7 @@ tags: ["statistics", "bayesian", "bayesian-statistics", "predictive-analytics", 
 
 I'm a bit late to the party when it comes to commentary on Nate Silver's book *the Signal and the Noise*[^satn], but I recently finished reading it and I have a lot of thoughts about it.
 
-![](../signal_and_noise_plot.png)
+![](/images/signal_and_noise_plot.png)
 
 
 ## Main Ideas
@@ -59,7 +59,7 @@ Silver also states that the only bad choice of prior belief is no belief. I whol
 
 In one of the last case studies of the book, Silver discusses issues with climate modeling, as well as skepticism from experts and non-experts that result from models or their methodologies. This section includes a part where he compares models from two different sources, the IPCC (Intergovernmental Panel on Climate Change), and J. Scott Armstrong from the Heartland Institute (a conservative libertarian think tank). In this section of the book, Silver interviews Armstrong about his no-change model and his subsequent attempt to make a bet with Al Gore about the veracity of the IPCC model[^bet]. At the time (2013), Armstrong's no change model (2009) was performing better than the IPCC's climate model (2007)[^ipcc] at predicting yearly change in global temperatures. The part of this I take issue with is how Silver heaps criticism onto the IPCC model about how it is overly complicated (which is partially true) and could be wrong, without applying any similar criticisms to Armstrong's model--a model produced by a conservative think tank with a history of producing dubious (and outright false) claims[^heart-fact-check]. Silver didn't even raise the obvious criticism that the "no-change" model chose a baseline global temperature of the hottest year on record at the time, 1998[^1998].
 
-![](../temperature-change-plot.png)
+![](/images/temperature-change-plot.png)
 
 I would consider this baseline choice as particularly egregious as (with the full context of the above graph), it ignores a century of increasing global temperatures in order to serve a political narrative. This stuck out to me, partially as a young person who cares a lot about climate change, but also because I read the previous sections of this exact book, in which Silver calls out pundits for making predictions that serve their narrative, and are often incorrect as a result. I don't believe that Nate Silver is a climate denier by any means, but I do think it was harmful that he perpetuated the climate skepticism narrative by not applying adequate scrutiny to Armstrong's model.
 I do acknowledge that it has been more than a decade since this book was written, but in hindsight this section has aged quite poorly. As of 2024, we have had the three hottest years on record back to back, and the annual global temperature changes are much more in line with the IPCC than with Armstrong's no change model (which looks pretty bad now[^bet]). As climate change continues to grow worse, writings like this section of the book are damaging to momentum towards dealing with the issue.

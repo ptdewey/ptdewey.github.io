@@ -3,10 +3,12 @@ package main
 import (
 	"bytes"
 	"encoding/json"
+	"encoding/xml"
 	"fmt"
 	"os"
 	"path/filepath"
 	"strings"
+	"time"
 
 	"github.com/yuin/goldmark"
 	highlighting "github.com/yuin/goldmark-highlighting"
@@ -18,6 +20,28 @@ import (
 type Page struct {
 	Metadata map[string]interface{} `json:"metadata"`
 	Content  string                 `json:"content"`
+}
+
+type RSS struct {
+	XMLName xml.Name `xml:"rss"`
+	Version string   `xml:"version,attr"`
+	Channel Channel  `xml:"channel"`
+}
+
+type Channel struct {
+	Title       string `xml:"title"`
+	Link        string `xml:"link"`
+	Description string `xml:"description"`
+	PubDate     string `xml:"pubDate"`
+	Items       []Item `xml:"item"`
+}
+
+type Item struct {
+	Title       string `xml:"title"`
+	Link        string `xml:"link"`
+	Description string `xml:"description"`
+	PubDate     string `xml:"pubDate"`
+	Category    string `xml:"category"`
 }
 
 func generateSlug(title string) string {
@@ -111,6 +135,60 @@ func processDirectory(dir string) ([]Page, error) {
 	return posts, err
 }
 
+func generateRSSFromJSON(inputPath string, outputPath string) error {
+	file, err := os.ReadFile(inputPath)
+	if err != nil {
+		return err
+	}
+
+	var pages []Page
+	if err := json.Unmarshal(file, &pages); err != nil {
+		return err
+	}
+
+	channel := Channel{
+		Title:       "Patrick Dewey's Blog",
+		Link:        "https://pdewey.com/blog",
+		Description: "Articles and thoughts from Patrick Dewey",
+		PubDate:     time.Now().Format(time.RFC1123Z),
+	}
+
+	for _, page := range pages {
+		var categories []string
+		if rawCategories, ok := page.Metadata["categories"].([]interface{}); ok {
+			for _, category := range rawCategories {
+				if strCategory, ok := category.(string); ok {
+					categories = append(categories, strCategory)
+				}
+			}
+		}
+
+		item := Item{
+			Title:       page.Metadata["title"].(string),
+			Link:        fmt.Sprintf("https://pdewey.com/blog/%s", page.Metadata["slug"].(string)),
+			Description: page.Content,
+			PubDate:     page.Metadata["date"].(string),
+			Category:    strings.Join(categories, ", "),
+		}
+		channel.Items = append(channel.Items, item)
+	}
+
+	rss := RSS{
+		Version: "2.0",
+		Channel: channel,
+	}
+
+	output, err := xml.MarshalIndent(rss, "", "  ")
+	if err != nil {
+		return err
+	}
+
+	rssHeader := []byte(xml.Header)
+	output = append(rssHeader, output...)
+
+	return os.WriteFile(outputPath, output, 0644)
+}
+
 func writeJSONFile(data interface{}, outputPath string) error {
 	jsonData, err := json.MarshalIndent(data, "", "  ")
 	if err != nil {
@@ -131,5 +209,10 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Println("Successfully generated posts.json")
+	if err := generateRSSFromJSON("static/data/posts.json", "static/rss.xml"); err != nil {
+		fmt.Printf("Error writing rss.xml: %v\n", err)
+		os.Exit(1)
+	}
+
+	fmt.Println("Successfully generated posts.json and rss.xml")
 }
