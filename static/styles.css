@@ -9,9 +9,11 @@
     --teal: #5F865F;
     --yellow: #C9A654;
     --red: #B3664D;
+    --dark-brown-alt: #3d342c;
 
     --text-color: var(--tan);
     --background-color: var(--dark-brown);
+    --background-color-alt: var(--dark-brown-alt);
     --header-background: var(--green);
     --link-color: var(--yellow);
     --link-hover-color: var(--teal);
