@@ -19,6 +19,14 @@ let projects = [
     category: "Active Projects",
     items: [
       {
+        title: "Oolong",
+        description:
+          "Platform agnostic, next gen note taking application with automatic note linking. Uses a custom keyword extraction system to link notes and ideas, enabling their visualization in a 2D/3D force-directed graph.",
+        image: "/images/oolong-screenshot.png",
+        link: "https://github.com/oolong-sh",
+        time: "Fall 2024 - Present",
+      },
+      {
         title: "Matcha",
         description:
           "A beautiful TUI note-taking helper that allows users to quickly create notes and search existing notes. Written in Go using Bubble Tea.",

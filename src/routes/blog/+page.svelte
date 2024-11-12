@@ -3,7 +3,7 @@
   export let data;
 </script>
 
-<main>
+<div class="blog-list-container">
   <h1>Blog</h1>
   <ul>
     {#each data.posts as post}
@@ -15,9 +15,13 @@
       </li>
     {/each}
   </ul>
-</main>
+</div>
 
 <style>
+  .blog-list-container {
+    max-width: 1200px;
+  }
+
   li {
     list-style: none;
   }

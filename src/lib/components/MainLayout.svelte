@@ -1,7 +1,6 @@
 <script>
   import Header from "./Header.svelte";
   import Footer from "./Footer.svelte";
-  import { base } from "$app/paths";
   export let data;
 </script>
 

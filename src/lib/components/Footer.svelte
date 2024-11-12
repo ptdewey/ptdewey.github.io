@@ -7,7 +7,7 @@
     font-size: 0.8em;
     color: var(--text-color);
     text-align: center;
-    padding: 0em;
-    margin-top: 1em;
+    padding: 3px;
+    margin-top: 5px;
   }
 </style>

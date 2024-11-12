@@ -2,7 +2,7 @@
   import { base } from "$app/paths";
 </script>
 
-<main>
+<div>
   <section class="welcome">
     <h1>Welcome</h1>
     <p>
@@ -42,4 +42,10 @@
       <a href="https://bsky.app/profile/pdewey.com">BlueSky</a>
     </p>
   </section>
-</main>
+</div>
+
+<style>
+  .welcome {
+    max-width: 800px;
+  }
+</style>
