@@ -100,7 +100,7 @@ func processMarkdownFile(path string) (Page, error) {
 			extension.GFM,
 			extension.Footnote,
 			highlighting.NewHighlighting(
-				highlighting.WithStyle("github"),
+				highlighting.WithStyle("monokai"),
 			),
 		),
 		goldmark.WithRendererOptions(
