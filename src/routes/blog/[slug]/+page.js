@@ -7,6 +7,7 @@ export async function load({ params, fetch }) {
     throw new Error(`Failed to load posts: ${response.status}`);
   }
 
+  /** @type {import("$lib/types").Post[]} */
   const posts = await response.json();
 
   const post = posts.find((p) => p.metadata.slug === slug);

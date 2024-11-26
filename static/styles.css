@@ -18,6 +18,8 @@
     --link-hover-color: var(--teal);
     --code-background: var(--dark-green);
     --code-text-color: var(--tan);
+
+    --font-size: 1.2em;
 }
 
 @font-face {
@@ -52,7 +54,7 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     font-family: "Iosevka Patrick";
-    font-size: 1.2em;
+    font-size: var(--font-size);
     margin: 0;
     padding: 0;
     line-height: 1.6;

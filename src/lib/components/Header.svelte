@@ -1,6 +1,8 @@
 <script>
   import { base } from "$app/paths";
-  /** @type {import('$lib/types').Page[]} */
+  /** @import {Page} from "$lib/types" */
+
+  /** @type {Page[]} */
   export let pages = [];
   let isMenuOpen = false;
 
