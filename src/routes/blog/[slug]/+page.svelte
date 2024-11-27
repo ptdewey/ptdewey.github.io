@@ -1,5 +1,7 @@
 <script>
   import { CommentSection } from "bluesky-comments-svelte";
+  import { base } from "$app/paths";
+
   /** @import {BlogPost} from "$lib/types" */
 
   /** @type {BlogPost} */
@@ -8,6 +10,7 @@
   const author = "pdewey.com";
 </script>
 
+<link rel="stylesheet" href="{base}/darkearth-syntax.css" />
 <article class="post-container">
   {#if data && data.post}
     <h1>{data.post.metadata.title}</h1>

@@ -1,0 +1,184 @@
+pre.chroma {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--darker-brown);
+    color: var(--tan);
+    padding: 0.5rem;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+.chroma .line {
+    display: flex;
+}
+
+/* Line Numbers */
+.chroma .ln {
+    color: #6E665E;
+    text-align: right;
+    margin-right: 15px;
+    font-style: italic;
+}
+
+/* Syntax Highlighting */
+/* Keywords */
+.chroma .k,
+.chroma .kr,
+.chroma .nd {
+    color: #5F865F;
+}
+
+/* Types (e.g., int, string) */
+.chroma .kt {
+    /* color: var(--green); */
+    color: var(--red);
+}
+
+/* Identifiers (variables, functions) */
+.chroma .n {
+    color: #D7C484;
+}
+
+/* Attributes */
+.chroma .na {
+    color: #BB7844;
+}
+
+/* Built-in Names */
+.chroma .nb {
+    color: #BB7844;
+}
+
+/* Constants */
+.chroma .nc {
+    color: #BB7844;
+}
+
+/* Entities */
+.chroma .ne {
+    color: var(--green);
+}
+
+/* Exceptions */
+.chroma .nx {
+    color: var(--tan);
+}
+
+/* Functions */
+.chroma .nf {
+    color: var(--green);
+}
+
+/* Labels */
+.chroma .nl {
+    color: #B36B42;
+}
+
+/* Tags (e.g., HTML/XML) */
+.chroma .nt {
+    color: #BB7844;
+}
+
+/* Variables */
+.chroma .nv {
+    color: #D7C484;
+}
+
+/* Strings */
+.chroma .s,
+.chroma .s2 {
+    color: #B3854D;
+}
+
+/* String Symbols */
+.chroma .ss {
+    color: #C9A654;
+}
+
+/* Numbers */
+.chroma .m {
+    color: #B3664D;
+}
+
+/* Operators */
+.chroma .o {
+    color: #669977;
+}
+
+/* Punctuation */
+.chroma .p {
+    color: #80744D;
+}
+
+/* Comments */
+.chroma .c {
+    color: #6E665E;
+    font-style: italic;
+}
+
+/* Preprocessor Comments */
+.chroma .cp {
+    color: #6E665E;
+}
+
+/* Generic Styles */
+/* Error */
+.chroma .err {
+    background-color: #B36B42;
+    color: #C3C3B1;
+}
+
+/* Deleted Lines */
+.chroma .gd {
+    background-color: #B36B42;
+    color: #212121;
+}
+
+/* Inserted Lines */
+.chroma .gi {
+    background-color: #5F865F;
+    color: #212121;
+}
+
+/* Headings */
+.chroma .gh {
+    color: var(--green);
+}
+
+/* Subheadings */
+.chroma .gu {
+    color: var(--green);
+}
+
+.chroma .mi,
+.chroma .mf {
+    color: var(--red)
+}
+
+/* Emphasis */
+.chroma .ge {
+    text-decoration: underline;
+    color: var(--green);
+}
+
+/* Strong Text */
+.chroma .gs {
+    color: var(--green);
+}
+
+/* Prompt Text */
+.chroma .gp {
+    color: #6E665E;
+}
+
+/* Tracebacks */
+.chroma .gt {
+    background-color: #B36B42;
+}
+
+/* Errors */
+.chroma .err {
+    background-color: #B36B42;
+    color: #C3C3B1;
+}

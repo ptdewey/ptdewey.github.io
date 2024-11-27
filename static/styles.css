@@ -9,6 +9,7 @@
     --yellow: #C9A654;
     --red: #B3664D;
     --dark-brown-alt: #3d342c;
+    --darker-brown: #1c1a18;
 
     --text-color: var(--tan);
     --background-color: var(--dark-brown);
@@ -16,10 +17,12 @@
     --header-background: var(--green);
     --link-color: var(--yellow);
     --link-hover-color: var(--teal);
-    --code-background: var(--dark-green);
+
+    --code-background: ar(--darker-brown);
     --code-text-color: var(--tan);
 
     --font-size: 1.2em;
+    --code-font-size: 1.0em;
 }
 
 @font-face {
@@ -103,19 +106,13 @@ blockquote {
     background-color: rgba(119, 130, 74, 0.1);
 }
 
-pre {
-    background-color: var(--code-background);
-    color: var(--code-text-color);
-    padding: 1em;
-    overflow-x: auto;
-    border-radius: 5px;
-}
-
 code {
-    background-color: var(--code-background);
+    font-family: "Iosevka Patrick";
+    background-color: var(--darker-brown);
     color: var(--code-text-color);
     padding: 0.2em 0.4em;
     border-radius: 3px;
+    font-size: 1.1rem;
 }
 
 .footnotes {
@@ -193,7 +190,6 @@ h2 {
 .metadata-line {
     font-size: 1.1em;
 }
-
 
 h1,
 h2,

@@ -8,9 +8,11 @@ import (
 	"math"
 	"os"
 	"path/filepath"
+	"sort"
 	"strings"
 	"time"
 
+	chromahtml "github.com/alecthomas/chroma/formatters/html"
 	"github.com/yuin/goldmark"
 	highlighting "github.com/yuin/goldmark-highlighting"
 	"github.com/yuin/goldmark/extension"
@@ -100,7 +102,12 @@ func processMarkdownFile(path string) (Page, error) {
 			extension.GFM,
 			extension.Footnote,
 			highlighting.NewHighlighting(
-				highlighting.WithStyle("monokai"),
+				highlighting.WithFormatOptions(
+					chromahtml.WithLineNumbers(true),
+					chromahtml.WithClasses(true),
+				),
+				// highlighting.WithStyle("monokai"),
+				// highlighting.WithCustomStyle(darkearth),
 			),
 		),
 		goldmark.WithRendererOptions(
@@ -215,6 +222,12 @@ func main() {
 		fmt.Printf("Error processing directory: %v\n", err)
 		os.Exit(1)
 	}
+
+	sort.Slice(posts, func(i, j int) bool {
+		dateI, _ := time.Parse("2006-01-02", posts[i].Metadata["date"].(string))
+		dateJ, _ := time.Parse("2006-01-02", posts[j].Metadata["date"].(string))
+		return dateI.After(dateJ)
+	})
 
 	if err := writeJSONFile(posts, "static/data/posts.json"); err != nil {
 		fmt.Printf("Error writing posts.json: %v\n", err)

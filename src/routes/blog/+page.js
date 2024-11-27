@@ -6,5 +6,6 @@ export async function load({ fetch }) {
   }
 
   const posts = await response.json();
-  return { posts: posts.reverse() };
+  // return { posts: posts.reverse() };
+  return { posts };
 }
