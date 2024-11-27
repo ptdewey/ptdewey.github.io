@@ -113,6 +113,7 @@ code {
     padding: 0.2em 0.4em;
     border-radius: 3px;
     font-size: 1.1rem;
+    width: 100%;
 }
 
 .footnotes {
@@ -248,5 +249,10 @@ img {
     .footnotes li {
         padding-right: 0.5em;
         line-height: 1.4;
+    }
+
+    code {
+        font-size: 0.8em;
+        width: 1em;
     }
 }

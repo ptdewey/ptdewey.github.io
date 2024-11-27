@@ -81,6 +81,14 @@
   }
 
   @media (max-width: 768px) {
+    header {
+      margin: 1px 1px;
+    }
+
+    nav {
+      padding: 8px 15px;
+    }
+
     .menu-toggle {
       display: block;
       margin-left: auto;
@@ -107,6 +115,10 @@
     .nav-links a {
       padding: 0.75em 1em;
       text-align: left;
+    }
+
+    button {
+      padding: 2px 5px;
     }
   }
 </style>
