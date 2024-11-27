@@ -5,6 +5,7 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
+        "postbuild": "npx svelte-sitemap --domain https://pdewey.com",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
@@ -19,6 +20,7 @@
 		"mdsvex": "^0.12.3",
 		"svelte": "^5.0.0",
 		"svelte-check": "^4.0.0",
+		"svelte-sitemap": "^2.6.0",
 		"typescript": "^5.0.0",
 		"vite": "^5.0.3"
 	},
