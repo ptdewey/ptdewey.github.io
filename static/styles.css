@@ -251,8 +251,15 @@ img {
         line-height: 1.4;
     }
 
+    pre {
+        max-width: 100%;
+        width: auto;
+    }
+
     code {
+        display: inline-block;
         font-size: 0.8em;
-        width: 1em;
+        max-width: 100%;
+        width: 0.9rem;
     }
 }

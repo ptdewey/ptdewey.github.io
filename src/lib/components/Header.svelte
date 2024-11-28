@@ -32,7 +32,7 @@
 
 <style>
   header {
-    margin: 1em;
+    margin: 1em 0;
   }
 
   header a:hover {
@@ -82,6 +82,8 @@
 
   @media (max-width: 768px) {
     header {
+      display: inline-block;
+      width: 100%;
       margin: 1px 1px;
     }
 

@@ -78,6 +78,11 @@
     background-color: var(--dark-brown-alt);
     padding: 10px;
     border-radius: 8px;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+    white-space: normal;
   }
 
   .divider {
