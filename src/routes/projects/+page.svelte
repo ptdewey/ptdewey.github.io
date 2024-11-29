@@ -2,6 +2,13 @@
   import projects from "./projects.js";
 </script>
 
+<!--
+ TODO:
+- improve project sections
+  - "featured" projects (take up full width)
+  - "other projects" (below featured, have all the other projects)
+- Add navigation jumps for moving between sections
+-->
 <div>
   {#each projects as projectCategory}
     <div class="category-section">

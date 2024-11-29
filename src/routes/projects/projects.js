@@ -27,6 +27,14 @@ let projects = [
         time: "Fall 2024 - Present",
       },
       {
+        title: "Bluesky Comments",
+        description:
+          "Embed Bluesky post replies as comments on any webpage as a Svelte-based component.",
+        image: "/images/bsky-comments.png",
+        link: "https://github.com/bluesky-comments-svelte",
+        time: "Fall 2024",
+      },
+      {
         title: "Matcha",
         description:
           "A beautiful TUI note-taking helper that allows users to quickly create notes and search existing notes. Written in Go using Bubble Tea.",
