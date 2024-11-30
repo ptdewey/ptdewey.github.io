@@ -31,7 +31,7 @@ let projects = [
         description:
           "Embed Bluesky post replies as comments on any webpage as a Svelte-based component.",
         image: "/images/bsky-comments.png",
-        link: "https://github.com/bluesky-comments-svelte",
+        link: "https://github.com/ptdewey/bluesky-comments-svelte",
         time: "Fall 2024",
       },
       {
