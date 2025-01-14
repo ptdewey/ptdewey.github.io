@@ -1,39 +1,43 @@
-/**
- * @typedef {Object} Project
- * @property {string} title
- * @property {string} description
- * @property {string} link
- * @property {string} [image]
- * @property {string} [time]
- */
+/** @import {ProjectCategory} from "$lib/types" */
 
-/**
- * @typedef {Object} ProjectCategory
- * @property {string} category
- * @property {Project[]} items
- */
+/** @type {ProjectCategory} */
+export let featuredProjects = {
+  category: "Featured Projects",
+  items: [
+    {
+      title: "Oolong",
+      description:
+        "Platform agnostic, next gen note taking application with automatic note linking. Uses a custom keyword extraction system to link notes and ideas, enabling their visualization in a 2D/3D force-directed graph.",
+      image: "/images/oolong-graph-screenshot.png",
+      link: "https://github.com/oolong-sh",
+      time: "Fall 2024 - Present",
+    },
+    {
+      title: "Pendulum-nvim",
+      description:
+        "Neovim plugin that monitors coding duration and compiles metrics such as git project name, file type, and additional parameters, providing insightful data for productivity analysis. Written in Go and Lua.",
+      image:
+        "https://github.com/ptdewey/pendulum-nvim/raw/main/assets/screenshot0.png",
+      link: "https://github.com/ptdewey/pendulum-nvim",
+      time: "Spring 2024 - Present",
+    },
+    {
+      title: "YankBank-nvim",
+      description:
+        "Versatile Neovim plugin that offers an enhanced clipboard history interface with a quick-access menu, featuring session persistence through SQLite. Written in Lua.",
+      image:
+        "https://github.com/ptdewey/yankbank-nvim/raw/main/assets/screenshot-2.png",
+      link: "https://github.com/ptdewey/yankbank-nvim",
+      time: "Spring 2024 - Present",
+    },
+  ],
+};
 
 /** @type {ProjectCategory[]} */
-let projects = [
+export let projects = [
   {
     category: "Active Projects",
     items: [
-      {
-        title: "Oolong",
-        description:
-          "Platform agnostic, next gen note taking application with automatic note linking. Uses a custom keyword extraction system to link notes and ideas, enabling their visualization in a 2D/3D force-directed graph.",
-        image: "/images/oolong-screenshot.png",
-        link: "https://github.com/oolong-sh",
-        time: "Fall 2024 - Present",
-      },
-      {
-        title: "Bluesky Comments",
-        description:
-          "Embed Bluesky post replies as comments on any webpage as a Svelte-based component.",
-        image: "/images/bsky-comments.png",
-        link: "https://github.com/ptdewey/bluesky-comments-svelte",
-        time: "Fall 2024",
-      },
       {
         title: "Matcha",
         description:
@@ -50,24 +54,6 @@ let projects = [
           "https://github.com/ptdewey/blueprinter/raw/main/assets/screenshot-1.png",
         link: "https://github.com/ptdewey/blueprinter",
         time: "Summer 2024 - Present",
-      },
-      {
-        title: "Pendulum-nvim",
-        description:
-          "Neovim plugin that monitors coding duration and compiles metrics such as git project name, file type, and additional parameters, providing insightful data for productivity analysis. Written in Go and Lua.",
-        image:
-          "https://github.com/ptdewey/pendulum-nvim/raw/main/assets/screenshot0.png",
-        link: "https://github.com/ptdewey/pendulum-nvim",
-        time: "Spring 2024 - Present",
-      },
-      {
-        title: "YankBank-nvim",
-        description:
-          "Versatile Neovim plugin that offers an enhanced clipboard history interface with a quick-access menu, featuring session persistence through SQLite. Written in Lua.",
-        image:
-          "https://github.com/ptdewey/yankbank-nvim/raw/main/assets/screenshot-2.png",
-        link: "https://github.com/ptdewey/yankbank-nvim",
-        time: "Spring 2024 - Present",
       },
       {
         title: "DarkEarth-nvim",
@@ -109,6 +95,13 @@ let projects = [
   {
     category: "Finished Projects",
     items: [
+      {
+        title: "Bluesky Comments",
+        description:
+          "Embed Bluesky post replies as comments on any webpage as a Svelte-based component.",
+        link: "https://github.com/ptdewey/bluesky-comments-svelte",
+        time: "Fall 2024",
+      },
       {
         title: "internot.blog",
         description:
@@ -183,4 +176,4 @@ let projects = [
   },
 ];
 
-export default projects;
+export default { projects: projects, featuredProjects: featuredProjects };
